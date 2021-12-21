@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "ca8a6f41-ad20-4161-83ee-360f1c24072f": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>\n<span style=\"font-style: italic;    color: rgb(var(--color-base-accent-2));\">HARDINESS:<\/span> {{ product.metafields.my_fields.hardiness.value }}°F<\/h3>",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -52,6 +59,7 @@
       "block_order": [
         "vendor",
         "title",
+        "ca8a6f41-ad20-4161-83ee-360f1c24072f",
         "price",
         "variant_picker",
         "quantity_selector",
