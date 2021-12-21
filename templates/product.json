@@ -18,19 +18,12 @@
         "ca8a6f41-ad20-4161-83ee-360f1c24072f": {
           "type": "text",
           "settings": {
-            "text": "<h3>\n<span style=\"font-style: italic;    color: rgb(var(--color-base-accent-2));\">HARDINESS:<\/span> {{ product.metafields.my_fields.hardiness.value }}°F<\/h3>",
+            "text": "HARDINESS: {{ product.metafields.my_fields.hardiness.value }}°F",
             "text_style": "body"
           }
         },
-        "e759c963-a994-4ed4-883f-2c5f0903e2de": {
-          "type": "text",
-          "settings": {
-            "text": "LIGHT REQUIREMENTS: {{ product.metafields.my_fields.light_requirements.value }}°F",
-            "text_style": "body"
-          }
-        },
-        "price": {
-          "type": "price",
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -38,6 +31,11 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "dropdown"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
           }
         },
         "quantity_selector": {
@@ -51,15 +49,17 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "ace10197-3be1-4fe6-806d-695ce9ea13af": {
+          "type": "text",
+          "settings": {
+            "text": "LIGHT REQUIREMENTS: {{ product.metafields.my_fields.light_requirements.value }}",
+            "text_style": "body"
           }
         }
       },
@@ -67,13 +67,13 @@
         "vendor",
         "title",
         "ca8a6f41-ad20-4161-83ee-360f1c24072f",
-        "e759c963-a994-4ed4-883f-2c5f0903e2de",
-        "price",
+        "description",
         "variant_picker",
+        "price",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "share",
+        "ace10197-3be1-4fe6-806d-695ce9ea13af"
       ],
       "settings": {
         "enable_sticky_info": true,
