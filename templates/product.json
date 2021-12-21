@@ -22,6 +22,34 @@
             "text_style": "body"
           }
         },
+        "ace10197-3be1-4fe6-806d-695ce9ea13af": {
+          "type": "text",
+          "settings": {
+            "text": "LIGHT REQUIREMENTS: {{ product.metafields.my_fields.light_requirements.value }}",
+            "text_style": "body"
+          }
+        },
+        "b775c47f-aefe-42f6-a756-c98da5e0ca85": {
+          "type": "text",
+          "settings": {
+            "text": "FOLIAGE COLOR: {{ product.metafields.my_fields.foliage_color.value }}",
+            "text_style": "body"
+          }
+        },
+        "14556799-db29-4107-a02a-391c324ab56c": {
+          "type": "text",
+          "settings": {
+            "text": "FLOWER: {{ product.metafields.my_fields.flower.value }}",
+            "text_style": "body"
+          }
+        },
+        "c76d14e4-3e33-490c-9f94-c2f666dffe53": {
+          "type": "text",
+          "settings": {
+            "text": "ORIGIN: {{ product.metafields.my_fields.origin.value }}",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -54,26 +82,22 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "ace10197-3be1-4fe6-806d-695ce9ea13af": {
-          "type": "text",
-          "settings": {
-            "text": "LIGHT REQUIREMENTS: {{ product.metafields.my_fields.light_requirements.value }}",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "ca8a6f41-ad20-4161-83ee-360f1c24072f",
+        "ace10197-3be1-4fe6-806d-695ce9ea13af",
+        "b775c47f-aefe-42f6-a756-c98da5e0ca85",
+        "14556799-db29-4107-a02a-391c324ab56c",
+        "c76d14e4-3e33-490c-9f94-c2f666dffe53",
         "description",
         "variant_picker",
         "price",
         "quantity_selector",
         "buy_buttons",
-        "share",
-        "ace10197-3be1-4fe6-806d-695ce9ea13af"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
